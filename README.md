@@ -16,12 +16,14 @@ MAB를 기반으로 Hyperparameter Tunining 속도를 개선하는 Project입니
 ## Python code 구성
 ### PART1 : MAB CALSS 정의
 ### PART2 : Data LOAD & 전처리 
+ github reinfoceceproj/Dataset_public에 있는 csv파일이 사용되며, 코드 수행 전 file_path를 재지정해야할 수 있습니다.
+
 ### PART3 : 데이터 통합마트 생성 및 학습 준비
 ### PART4 : 모델학습 및 비교
 ### PART5 : 모델 다운로드 및 테스트
 
 PART4 학습에 장시간 시간이 소요되므로 이부분을 SKIP하고 MODEL 1,2,3을 확인하려는 경우 PART5 코드를 이용한다.
-그런 경우 model 12,3 pkl 파일을 다운받아서 사용할 수 있으며, 코드 수행시 Project와 동일 폴더에 pkl 파일이 존재해야한다.
+그런 경우 model 1,2,3 pkl 파일을 다운받아서 사용할 수 있으며, 코드 수행시 Project와 동일 폴더에 pkl 파일이 존재해야한다.
 
 * * *
 
