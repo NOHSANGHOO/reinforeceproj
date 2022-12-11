@@ -9,7 +9,6 @@ tunning하려는 Target Model은 아래와 같습니다.
 ***
 
 ## Python code 구성
-### - 코드 구성 -
 ### PART1 : MAB CALSS 정의
 ### PART2 : Data LOAD & 전처리 
 ### PART3 : 데이터 통합마트 생성 및 학습 준비
