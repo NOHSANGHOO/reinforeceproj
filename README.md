@@ -2,9 +2,12 @@
 
 ## Project 개요
 MAB를 기반으로 Hyperparameter Tunining 속도를 개선하는 Project입니다.
+Target Model은 Randomforest Classifier이며, Tunning Target Hyperparameter는 총 3종입니다.
+① Number of Estimators 
+② Max depth 
+③ Minimum Samples of leaf 
 
-tunning하려는 Target Model은 아래와 같습니다.
-![image](https://user-images.githubusercontent.com/95091156/206910317-7e8f300a-d5f9-4112-86f8-ae3e0376bac8.png)
+![image](https://user-images.githubusercontent.com/95091156/206911109-0ad87a37-31fb-4eb5-998d-1daf7377a12a.png)
 
 ***
 
@@ -24,7 +27,7 @@ PART4 학습에 장시간 시간이 소요되므로 이부분을 SKIP하고 MODE
 분류보델의 데이터셋은 '서울시 우리마을가게 골목상권' Data를 사용합니다.
 Data Source : https://data.seoul.go.kr/dataList/3/literacyView.do
 
-총 10개의 csv 파일을 사용
+Dataset_public 폴더에 있는 총 10개의 csv 파일을 사용합니다.
 
 ![image](https://user-images.githubusercontent.com/95091156/206910447-27d76db2-6061-44d4-9a77-c027ba8b8b98.png)
 
@@ -34,6 +37,3 @@ Data Source : https://data.seoul.go.kr/dataList/3/literacyView.do
 
 ***
 
-
-## MAB 기반 Hyperparameter Tuning
-![image](https://user-images.githubusercontent.com/95091156/206910799-6d376439-708f-4aad-a705-c2f0e8968d41.png)
